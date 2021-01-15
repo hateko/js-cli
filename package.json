@@ -1,0 +1,23 @@
+{
+  "name": "js-cli",
+  "version": "1.0.0",
+  "description": "js-cli",
+  "main": "./bin/index.js",
+  "bin": {
+    "js-plugin-cli": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.2.0",
+    "update-notifier": "^5.0.1"
+  }
+}
